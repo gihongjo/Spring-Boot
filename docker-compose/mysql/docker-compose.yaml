@@ -1,0 +1,17 @@
+version: "3"
+services:
+  db:
+    image: mysql:8.3.0
+    restart: always
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: mydb
+      MYSQL_ROOT_PASSWORD: root1234!!
+      TZ: Asia/Seoul
+      MYSQL_LOWER_CASE_TABLE_NAMES: "1"
+      MYSQL_CHARACTER_SET_SERVER: utf8mb4
+      MYSQL_COLLATION_SERVER: utf8mb4_unicode_ci
+    volumes:
+      - /Users/gihongjo/Temp/MYSQL:/var/lib/mysql
