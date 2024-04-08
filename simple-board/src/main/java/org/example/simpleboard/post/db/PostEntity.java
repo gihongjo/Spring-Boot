@@ -2,7 +2,6 @@ package org.example.simpleboard.post.db;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 
@@ -13,7 +12,7 @@ import java.time.LocalDateTime;
 @Builder
 @Entity(name = "post")
 @ToString
-public class postEntity {
+public class PostEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
