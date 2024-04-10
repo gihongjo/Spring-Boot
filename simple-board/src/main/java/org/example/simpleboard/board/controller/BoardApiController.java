@@ -25,7 +25,7 @@ public class BoardApiController {
             @RequestBody
             BoardRequest boardRequest
             ){
-        //Post가 들어오면 boardService로 create를 통해서
+        //Post가 들어오면 boardService를 boardRequest넣어서 생성한다.
         return boardService.create(boardRequest);
     }
 }
