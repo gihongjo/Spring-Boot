@@ -46,7 +46,7 @@ public class PostService {
 
 
         return postRepository
-                .findById(postViewRequest.getPostId())  //findById는 옵셔널(반복적인 null check 가능)
+                .findFirstByIdAndStatusOrderByIdDesc(postViewRequest.getPostId(),"REGISTERED")  //findById는 옵셔널(반복적인 null check 가능)
                 .map(data->{
                 if(!data.getPassword().equals(postViewRequest.getPassword())){
 
@@ -57,7 +57,7 @@ public class PostService {
                 return data;
         }).orElseThrow( //findById가 옵셔널이기 때문에 orElseThrow를 던져줄 수 있다. (null일 때를 대비할 수 있다.)
                         ()->{
-                            return new RuntimeException("해당 게시글이 존재하지 않습니다."+postViewRequest.getPostId());
+                            return new RuntimeException("해당 게시글이 존재하지 않습니다. 게시글 ID:"+postViewRequest.getPostId());
                         }
                 );
 
