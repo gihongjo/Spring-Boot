@@ -1,10 +1,11 @@
 package org.example.simpleboard.board.db;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
+import org.example.simpleboard.post.db.PostEntity;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -21,5 +22,9 @@ public class BoardEntity {
     private String boardName;
     private String status;
 
+    @OneToMany(
+            mappedBy = "board"  //PostEntity에서 이것과 연결하기 위해서는 이름을 맞춰야한다.
 
+    )
+    private List<PostEntity> postList= new ArrayList<>();
 }

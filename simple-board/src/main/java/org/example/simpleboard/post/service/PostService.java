@@ -2,10 +2,12 @@ package org.example.simpleboard.post.service;
 
 
 import lombok.RequiredArgsConstructor;
+import org.example.simpleboard.board.db.BoardRepository;
 import org.example.simpleboard.post.db.PostEntity;
 import org.example.simpleboard.post.db.PostRepository;
 import org.example.simpleboard.post.model.PostRequest;
 import org.example.simpleboard.post.model.PostViewRequest;
+import org.example.simpleboard.reply.service.ReplyService;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -16,15 +18,22 @@ import java.util.List;
 public class PostService {
 
     private final PostRepository postRepository;
+    private final BoardRepository boardRepository;
 
+    private final ReplyService replyService;
 
 
 
     public PostEntity create(
         PostRequest postRequest
     ){
+
+        var boardEntity = boardRepository
+                .findById(postRequest.getBoardId())
+                .get();// < 임시고정 원래는 존재하는지 까지 판별해야함
+
         var entity= PostEntity.builder()
-                .board_id(1L) //임시고정
+                 .board(boardEntity) //임시고정
                 .email(postRequest.getEmail())
                 .userName(postRequest.getUserName())
                 .password(postRequest.getPassword())
@@ -53,6 +62,7 @@ public class PostService {
                     var format ="패스워드가 맞지 않습니다. %s vs %s";
                     throw new RuntimeException(String.format(format, data.getPassword(),postViewRequest.getPassword()));
                 }
+                //여기에서 각 게시물과 게시물의 댓글도 보여주겠다.
 
                 return data;
         }).orElseThrow( //findById가 옵셔널이기 때문에 orElseThrow를 던져줄 수 있다. (null일 때를 대비할 수 있다.)

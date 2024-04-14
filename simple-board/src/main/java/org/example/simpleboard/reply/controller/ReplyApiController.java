@@ -13,9 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/reply")
+@RequiredArgsConstructor
 public class ReplyApiController {
 
-    private ReplyService replyService;
+    private final ReplyService replyService;
 
 
 
