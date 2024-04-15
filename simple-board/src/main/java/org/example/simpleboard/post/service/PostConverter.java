@@ -14,6 +14,7 @@ public class PostConverter {
        return PostDto.builder()
                 .id(postEntity.getId())
                 .boardId(postEntity.getId())
+               .status(postEntity.getStatus())
                 .userName(postEntity.getUserName())
                 .password(postEntity.getPassword())
                 .email(postEntity.getEmail())

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class PostRequest {
 
-    private Long boardId=1L;
+    private Long boardId;
 
     @NotBlank
     private String userName;
@@ -26,7 +26,6 @@ public class PostRequest {
     @NotBlank
     @Size(max = 4, min = 4)
     private String password;
-
 
 
     @NotBlank

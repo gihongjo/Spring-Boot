@@ -40,5 +40,6 @@ public class PostEntity {
 
     @OneToMany(
             mappedBy = "post"
-    ) private List<ReplyEntity> replyList = new ArrayList<>();
+    )
+    private List<ReplyEntity> replyList = new ArrayList<>();
 }

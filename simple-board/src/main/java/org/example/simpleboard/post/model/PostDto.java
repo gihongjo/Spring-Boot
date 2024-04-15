@@ -8,6 +8,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.example.simpleboard.board.db.BoardEntity;
 import org.example.simpleboard.reply.db.ReplyEntity;
+import org.hibernate.annotations.DialectOverride;
 
 import java.time.LocalDateTime;
 import java.util.List;

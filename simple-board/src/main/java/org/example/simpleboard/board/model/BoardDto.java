@@ -10,6 +10,7 @@ import jakarta.persistence.OneToMany;
 import lombok.*;
 import org.example.simpleboard.post.model.PostDto;
 import org.example.simpleboard.post.db.PostEntity;
+import org.hibernate.annotations.SQLRestriction;
 
 import java.util.List;
 
@@ -26,6 +27,7 @@ public class BoardDto {
     private Long id;
     private String boardName;
     private String status;
+
 
     private List<PostDto> postList= List.of();
 }
