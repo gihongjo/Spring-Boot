@@ -1,11 +1,10 @@
 package org.example.simpleboard.board.db;
 
 import jakarta.persistence.*;
+import jakarta.persistence.OrderBy;
 import lombok.*;
 import org.example.simpleboard.post.db.PostEntity;
-import org.hibernate.annotations.SQLRestriction;
-import org.hibernate.annotations.SQLSelect;
-import org.hibernate.annotations.Where;
+import org.hibernate.annotations.*;
 
 import java.util.ArrayList;
 import java.util.List;

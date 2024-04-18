@@ -3,11 +3,14 @@ package org.example.simpleboard.post.service;
 
 import lombok.RequiredArgsConstructor;
 import org.example.simpleboard.board.db.BoardRepository;
+import org.example.simpleboard.common.Api;
+import org.example.simpleboard.common.Pagination;
 import org.example.simpleboard.post.db.PostEntity;
 import org.example.simpleboard.post.db.PostRepository;
 import org.example.simpleboard.post.model.PostRequest;
 import org.example.simpleboard.post.model.PostViewRequest;
 import org.example.simpleboard.reply.service.ReplyService;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -74,8 +77,24 @@ public class PostService {
     }
 
 
-    public List<PostEntity> all() {
-        return postRepository.findAll();
+    public Api<List<PostEntity>> all(Pageable pageable) {
+        var list = postRepository.findAll(pageable);
+
+
+        var pagination = Pagination.builder()
+                .page(list.getNumber()) //현재 페이지
+                .size(list.getSize())   //몇개를 리턴했는지
+                .currentElements(list.getNumberOfElements())    //현재 페이지 엘리먼트 수
+                .totalElements(list.getTotalElements()) // 전체 엘리먼트 수
+                .totalPage(list.getTotalPages())    //전체 엘리먼트가 얼마나 있나
+                .build();
+
+        var respoense= Api
+                .<List<PostEntity>>builder()
+                .body(list.toList())
+                .pagination(pagination)
+                .build();
+        return respoense;
     }
 
 

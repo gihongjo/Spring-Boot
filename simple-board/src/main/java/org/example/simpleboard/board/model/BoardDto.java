@@ -30,4 +30,5 @@ public class BoardDto {
 
 
     private List<PostDto> postList= List.of();
+
 }

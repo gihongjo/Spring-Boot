@@ -30,7 +30,9 @@ public class BoardService {
     public BoardDto view(Long id) {
 
         var entity=boardRepository.findById(id).get();
-
         return boardConverter.toDto(entity);
     }
+
+
+
 }

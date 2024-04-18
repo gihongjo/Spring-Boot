@@ -9,6 +9,7 @@ import org.example.simpleboard.post.service.PostConverter;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -24,6 +25,7 @@ public class BoardConverter {
                 .orElseGet(Collections::emptyList)  // 빈 리스트 반환
                 .stream()
                 .map(postConverter::toDto)
+                .sorted(Comparator.comparing(PostDto::getId).reversed())  // 생성 날짜 기준 내림차순 정렬
                 .collect(Collectors.toList());
 
 
@@ -34,8 +36,10 @@ public class BoardConverter {
                 .status(boardEntity.getStatus())
                 .postList(postList)
                 .build();
-
-
     }
+
+
+
+
 
 }

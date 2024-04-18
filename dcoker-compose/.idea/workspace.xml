@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d9c7442-da49-45cb-beb7-0865f1fabf98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/common/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/common/Pagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69e23e77-b02b-4867-af01-60d1674c8505.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69e23e77-b02b-4867-af01-60d1674c8505.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01" beforeDir="false" afterPath="$PROJECT_DIR$/../fastcampus-2023-part01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/MemorydbApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/book/controller/BookApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/book/db/entity/BookEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/book/db/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/book/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/config/DataBaseConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/db/DataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/db/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/db/SimpleDataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/entity/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/entity/PrimaryKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/user/controller/UserApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/user/db/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/user/model/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/java/com/example/demo/user/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus-2023-part01/PART1/07_01. memorydbToJpa/demo/src/test/java/com/example/demo/MemorydbApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/db/BoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/db/BoardEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/db/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/db/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/model/BoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/model/BoardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/service/BoardConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/service/BoardConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/board/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/post/controller/postApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/post/controller/postApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/post/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-board/src/main/java/org/example/simpleboard/post/service/PostService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ecV2nAEVEXUku6eCnAihcfudRS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gihongjo/SpringStudy/mysql&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../mysql" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d9c7442-da49-45cb-beb7-0865f1fabf98" name="Changes" comment="" />
+      <created>1712203649925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712203649925</updated>
+      <workItem from="1712203650989" duration="1045000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

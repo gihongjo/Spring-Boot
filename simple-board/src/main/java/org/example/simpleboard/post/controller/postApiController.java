@@ -3,10 +3,14 @@ package org.example.simpleboard.post.controller;
 import jakarta.validation.Valid;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import org.example.simpleboard.common.Api;
 import org.example.simpleboard.post.db.PostEntity;
 import org.example.simpleboard.post.model.PostRequest;
 import org.example.simpleboard.post.model.PostViewRequest;
 import org.example.simpleboard.post.service.PostService;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -44,10 +48,13 @@ public class postApiController {
     }
 
     @GetMapping("/all")
-    public List<PostEntity> all(
+    public Api<List<PostEntity>> all(
 
+            @PageableDefault(page = 0,size = 10, sort = "id",direction = Sort.Direction.DESC)
+            Pageable pageable
     ){
-        return postService.all();
+
+        return postService.all(pageable);
 
     }
 
