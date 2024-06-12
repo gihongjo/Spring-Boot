@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18f8523e-5e08-49a4-9fc4-25125da2051b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Example/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC_Study/src/main/java/org/example/mvc_study/user/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC_Study/src/main/java/org/example/mvc_study/user/db/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC_Study/src/main/java/org/example/mvc_study/user/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC_Study/src/main/java/org/example/mvc_study/user/entity/PrimaryKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC_Study/src/main/java/org/example/mvc_study/user/model/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MVC_Study/src/main/java/org/example/mvc_study/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/01.hellospringboot/rest-api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/01.hellospringboot/rest-api/.idea/rest-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/01.hellospringboot/rest-api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/GenerateSecretKey/src/main/java/GenerateSecretKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/controller/BoardApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/db/BoardEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/db/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/model/BoardDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/model/BoardRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/service/BoardConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/java/org/example/simple_board/board/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringStudy/simple_board/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/java/org/example/cookie/controller/AccountApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/java/org/example/cookie/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/java/org/example/cookie/db/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/java/org/example/cookie/model/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/java/org/example/cookie/model/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/java/org/example/cookie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cookie/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../delivery-service/service/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../delivery-service/service/api/src/main/java/org/delivery/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../delivery-service/service/api/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../delivery-service/service/db/src/main/java/org/delivery/db/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/java/org/example/session/controller/AccountApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/java/org/example/session/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/java/org/example/session/db/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/java/org/example/session/model/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/java/org/example/session/model/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/java/org/example/session/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../session/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringStudy/01.hellospringboot/rest-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringStudy/01.hellospringboot/rest-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dcoker-compose/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dcoker-compose/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dcoker-compose/.idea/dataSources/69e23e77-b02b-4867-af01-60d1674c8505.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dcoker-compose/.idea/dataSources/69e23e77-b02b-4867-af01-60d1674c8505.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dcoker-compose/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dcoker-compose/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose/mysql/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker-compose/mysql/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fastcampus-2023-part01" beforeDir="false" afterPath="$PROJECT_DIR$/../../fastcampus-2023-part01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/controller/BoardApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/controller/BoardApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/db/BoardEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/db/BoardEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/model/BoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/model/BoardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../simple-board/src/main/java/org/example/simpleboard/board/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple-board/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../simple-board/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/applicationContext-webapp.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2hSeJmYWq5ftdoVBFhcXljBDpUJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.mvc-practice [jetty:run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mvc-practice [jetty:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-396cc1b2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18f8523e-5e08-49a4-9fc4-25125da2051b" name="Changes" comment="" />
+      <created>1717591840580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717591840580</updated>
+      <workItem from="1717591841652" duration="16875000" />
+      <workItem from="1717642321609" duration="7136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
